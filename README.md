@@ -36,11 +36,11 @@ composer install
 # now cd to other dirs (app, service_a, service_b) and run composer install
 # or simply copy composer.lock and vendor dir
 ```
-If required change `$base_url` in `services/Api/Api.php` inside *test-lumen/app/*, *test-lumen/service_a/* and *test-lumen/service_b/*. Default `$base_url` is http://localhost/test/test-lumen/
+If required change `$base_url` in `services/Api/Api.php` inside *test-lumen/app/*, *test-lumen/service_a/* and *test-lumen/service_b/*. Default `$base_url` is `http://localhost/test/test-lumen/`.
 
-- Monolith app: http://localhost/test/test-lumen/monolith/public/test
-- Monolith Service A: http://localhost/test/test-lumen/monolith/public/service/service-a/test
-- Monolith Service B: http://localhost/test/test-lumen/monolith/public/service/service-b/test
-- app: http://localhost/test/test-lumen/app/public/test
-- Microservice A: http://localhost/test/test-lumen/service_a/public/service/service-a/test
-- Microservice B: http://localhost/test/test-lumen/service_b/public/service/service-b/test
+- [Monolith app](http://localhost/test/test-lumen/monolith/public/test)
+- [Monolith Service A](http://localhost/test/test-lumen/monolith/public/service/service-a/test)
+- [Monolith Service B](http://localhost/test/test-lumen/monolith/public/service/service-b/test)
+- [app](http://localhost/test/test-lumen/app/public/test)
+- [Microservice A](http://localhost/test/test-lumen/service_a/public/service/service-a/test)
+- [Microservice B](http://localhost/test/test-lumen/service_b/public/service/service-b/test)
